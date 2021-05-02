@@ -15,5 +15,4 @@ for number in numbers:
         # проверяем делится ли на 7 без остатка, если делится заносим в список
         if amount % 7 == 0:
             list_of_cubs.append(number)
-
 print(list_of_cubs)
