@@ -17,5 +17,4 @@ decline = {
 }
 
 key_decline = int(input("Введите кол-во процентов: "))
-
 print(key_decline, decline[key_decline])
