@@ -4,7 +4,7 @@ list_of_cubs = []
 for number in numbers:
     # Берем нечетные числа
     if number % 2 != 0:
-        # Возводим в куб (пункт a задания), прибавляем 17 (пункт b). Новый список не создан (пункт c)
+        # Возводим в куб, прибавляем 17 (пункт b).
         number = number**3 + 17
         # складываем нехитрыми манипуляциями в цикле while, где num само число для цикла, amount - сумма элементов
         num = number
@@ -15,4 +15,10 @@ for number in numbers:
         # проверяем делится ли на 7 без остатка, если делится заносим в список
         if amount % 7 == 0:
             list_of_cubs.append(number)
-print(list_of_cubs)
+# Вычисляем сумму (задание a). Есть новая переменная, но не список (задание c)
+amount_of_cubs = 0
+
+for count in list_of_cubs:
+    amount_of_cubs += count
+
+print(amount_of_cubs)
