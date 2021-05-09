@@ -6,4 +6,3 @@ for elem in (('5', '"05"'), ('17', '"17"'), ('+"05"', '"+05"')):
     weather_string = weather_string.replace(*elem)
 
 print(weather_string)
-# для pulla
