@@ -22,3 +22,4 @@ for count in list_of_cubs:
     amount_of_cubs += count
 
 print(amount_of_cubs)
+#для pulla
