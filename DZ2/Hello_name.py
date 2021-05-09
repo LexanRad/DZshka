@@ -7,3 +7,4 @@ for elem_of_list in names_list:
     print('Привет,', name_in_str, '!')
 
 
+#pull
