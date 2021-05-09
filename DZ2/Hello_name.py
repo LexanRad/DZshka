@@ -6,4 +6,4 @@ for elem_of_list in names_list:
     name_in_str = elem_of_list.title().split().pop()
     print('Привет,', name_in_str, '!')
 
-
+# pull
