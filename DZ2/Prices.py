@@ -39,4 +39,4 @@ if len(list_of_prices) >= 5:
 else:
     print("Самые дорогие товары по убыванию: ", list_of_prices)
 
-# для Pull
+
