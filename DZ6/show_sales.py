@@ -13,3 +13,4 @@ if len(sys.argv) == 3:
 # нет - принтуем весь лист
 else:
     print(*list_of_sales, sep='')
+file_1.close()
